@@ -11,7 +11,6 @@ The main goal of this project is to demonstrate my skills in:
 - Manual Testing
 - Test Case Design
 - Bug Reporting
-- API Testing
 - Web Automation
 - End-to-End Testing
 - Test Organization and Documentation
