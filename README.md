@@ -15,7 +15,7 @@ The main goal of this project is to demonstrate my skills in:
 - End-to-End Testing
 - Test Organization and Documentation
 
-The project contains automated tests for WEB and API scenarios, following QA best practices and focusing on readability, maintainability, and real-world testing strategies.
+The project contains automated tests for WEB, following QA best practices and focusing on readability, maintainability, and real-world testing strategies.
 
 ---
 
