@@ -1,16 +1,26 @@
-import searchTeacher from '../pages/searchTeacher'
+import HomePage from "../pages/homePage"
+import SearchTeacher from "../pages/searchTeacher"
 
-const search = new searchTeacher()
+
+const homePage = new HomePage()
+const searchTeacher = new SearchTeacher()
+
+
 
 
 describe('Casos de teste Estratégia Educacional', () => {
   
   it('Search by Teacher', () => {
-    search.searchByTeacher()
-    cy.get("[href='https://www.estrategiaconcursos.com.br/cursosPorProfessor/adriana-figueiredo-3993/']").click()
+    homePage.accesshomePage()
+
+    searchTeacher.searchByTeacher()
+    searchTeacher.selectTeacher()
+    
+
 
 })
 })
+
 
 
  
